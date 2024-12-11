@@ -1,4 +1,4 @@
-FROM node:80.16.0
+FROM node:18.16.0
 ADD . /app
 RUN npn install
 WORKDIR /app
